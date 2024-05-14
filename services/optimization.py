@@ -1,5 +1,6 @@
 import cvxpy as cp
 import numpy as np
+from scipy.stats import gmean
 
 
 def MVO(mu, Q):
